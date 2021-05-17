@@ -1,0 +1,59 @@
+.cover {
+	background-image: url("../../public/images/download.png");
+	background-size: cover;
+}
+
+.jumbotron-index {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 60px;
+	max-width: 60em;
+	margin-left: 10em;
+}
+
+.index-wrapper {
+	background-image: url("../../public/images/section-1.png");
+
+	background-size: auto;
+
+	width: 1547px;
+	height: 110%;
+	padding-bottom: 30px;
+	margin-left: 90px;
+}
+@media (max-width: 991px) {
+	.hero {
+		width: 100%;
+		height: 100%;
+	}
+
+	.jumbotron-index {
+		width: 250px;
+		margin: 0;
+		margin-top: 60px;
+	}
+	.index-wrapper {
+		width: 50em;
+		height: 50em;
+	}
+}
+
+@media (max-width: 480px) {
+	.hero {
+		width: 100%;
+		height: 100%;
+	}
+	.jumbotron-index {
+		margin-left: 1em;
+		width: 20em;
+		margin-top: 40px;
+	}
+	.index-wrapper {
+		width: 25em;
+		height: 39em;
+	}
+	.cover {
+		background-image: none;
+	}
+}

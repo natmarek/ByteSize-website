@@ -1,0 +1,27 @@
+
+
+.contact-jumbotron {
+    background-color: white;
+    margin-left: 0;
+    
+}
+
+.contact-icons {
+    padding-top: 50px;
+
+}
+
+
+@media (max-width: 991px) {
+	.contact-image {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+	.contact-image {
+        height: 100%;
+        width: 100%;
+    }
+}

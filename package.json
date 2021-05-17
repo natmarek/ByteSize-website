@@ -1,0 +1,29 @@
+{
+  "name": "meetup-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@material-ui/core": "^4.11.0",
+    "@sendgrid/mail": "^7.3.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "dotenv": "^8.2.0",
+    "next": "^10.0.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.10.1",
+    "sass": "^1.26.11",
+    "vercel": "^20.1.2"
+  }
+}

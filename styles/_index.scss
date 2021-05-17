@@ -1,0 +1,43 @@
+.cover {
+	background-image: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper {
+	height: 150vh;
+	min-width: 100vw;
+	margin-top: 0;
+	padding-bottom: 5em;
+	position: relative;
+	justify-content: center;
+}
+
+.layout-container {
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	justify-items: center;
+}
+
+.pages {
+	color: black;
+	height: 40em;
+}
+
+.page-container {
+	background-color: white;
+	padding-top: 60px;
+	
+}
+@media (max-width: 991px) { 
+	.pages {
+		height: 100%;
+	}
+}
+@media (max-width: 480px) {
+	.pages {
+		height: 100%;
+	}
+	
+}

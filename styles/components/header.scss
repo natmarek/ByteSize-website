@@ -1,0 +1,43 @@
+// HEADER
+.navbar-default {
+  width: 100%;
+  z-index: 15;
+  padding: 10px;
+
+  .navbar {
+    &-brand {
+      color: black;
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+
+    }
+
+    &-item {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    &-link {
+      color: white;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      font-size: 18px;
+      text-transform: uppercase;
+
+
+
+      &:hover, &:focus {
+        color: rgb(69, 101, 206);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.logo {
+  margin-right: 10px;
+}
