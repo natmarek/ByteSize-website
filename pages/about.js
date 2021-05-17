@@ -59,7 +59,7 @@ export default function about() {
 								<br></br>
 								See you at the next event :)
 							</p>
-							<h5>All of this wouldnt be possible without support from our sponsor <a className="iw-link" href="https://infinityworks.com/">Infinity Works</a> - make sure to check
+							<h5>All of this wouldnt be possible without support from our sponsor <a className="iw-link" href="https://infinityworks.com/">Infinity Works. Part of Accenture</a> - make sure to check
 							our their website and their <a href="https://infinityworks.com/academy/"> Academy.</a> </h5>
 						</div>
 					</Col>
